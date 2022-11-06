@@ -50,7 +50,7 @@ const AddressForm = ({ checkoutToken, test }) => {
 
   return (
     <>
-      <Typography variant="h6" gutterBottom>Shipping address</Typography>
+      <Typography variant="h6" gutterBottom>Direccion de compra</Typography>
       <FormProvider {...methods}>
         <form onSubmit={methods.handleSubmit((data) => test({ ...data, shippingCountry, shippingSubdivision, shippingOption }))}>
           <Grid container spacing={3}>
